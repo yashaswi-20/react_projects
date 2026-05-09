@@ -1,0 +1,16 @@
+.tabs{
+  display:flex;
+  /*margin-left: 5px;*/
+  cursor:pointer;
+}
+
+.tab{
+ 
+  padding:10px;
+  border: 1px solid black
+}
+
+.tab-body{
+  border: 1px solid black;
+  height: 300px;
+}
