@@ -1,0 +1,42 @@
+/* .input-box{
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin-top: 200px;
+  margin-left:300px;
+} */
+
+.result-box{
+  border:1px solid black;
+  display:flex;
+  width:500px;
+  max-height:200px;
+  overflow-y: scroll;
+  margin-top:0px;
+  flex-direction:column;
+  margin-left:300px;
+
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+}
+
+.input{
+  width:500px;
+  height:20px;
+   margin-top: 200px;
+  margin-left:300px;
+}
+.result{
+  padding: 5px;
+}
+.result:hover{
+  background-color: beige;
+  cursor: pointer;
+}
+
+.active{
+  background-color: beige;
+}
